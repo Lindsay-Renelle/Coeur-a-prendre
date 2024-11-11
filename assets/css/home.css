@@ -1,0 +1,23 @@
+.entete {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les enfants */
+    align-items: center; /* Centrer verticalement les enfants */
+    padding-top: 5px;
+    margin: 0;
+    background-color: #b009f7; 
+}
+
+.entete__title {
+    margin-left: 10px; /* Ajouter un espacement entre le logo et le titre */
+}
+
+.entete img {
+    /* Ajouter une bordure autour du logo */
+    border: 3px solid #2b032d; 
+    /* Ajouter des arrondies */
+    border-radius: 30% / 40%;
+     /* Ajouter un peu de padding pour espacer le contenu de la bordure */
+    padding: 5px;
+    /* Ajouter un espace entre le logo et le titre */
+    margin-right: 30px; 
+}
